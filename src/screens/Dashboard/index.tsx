@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { HishLightCard } from '../../components/HishLightCard';
 import {
   Container,
   Header,
@@ -9,6 +10,7 @@ import {
   UserInfo,
   UserName,
   UserWrapper,
+  HightLightCards,
 } from './styles';
 
 export function Dashboard(): ReactElement {
@@ -30,6 +32,12 @@ export function Dashboard(): ReactElement {
           <Icon name='power' />
         </UserWrapper>
       </Header>
+
+      <HightLightCards>
+        <HishLightCard />
+        <HishLightCard />
+        <HishLightCard />
+      </HightLightCards>
     </Container>
   );
 }

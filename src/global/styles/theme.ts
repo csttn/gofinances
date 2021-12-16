@@ -7,9 +7,10 @@ export default {
     success_light: 'rgba(40, 167, 69, 0.5)',
     danger: '#e83f5b',
     danger_light: 'rgba(232, 63, 91, 0.3)',
-    shape: '#f0f0f5',
+    shape: '#ffffff',
     title: '#363f5f',
     text: '#969cb2',
+    text_dark: '#6a7a8c',
     background: '#f0f2f5',
   },
 
